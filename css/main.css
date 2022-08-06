@@ -1,5 +1,6 @@
 .container {
     width: 1200px;
+    margin: auto;
 }
 
 .footer {
@@ -177,67 +178,79 @@
     font-weight: bolder;
 
 }
-.copyright-box{
+
+.copyright-box {
     background: #f6f9ff;
     padding: 0 0 30px 0;
     font-size: 14px;
 }
-.Copy-right{
+
+.Copy-right {
     text-align: center;
     padding-top: 30px;
     color: #012970;
 }
+
 strong {
     font-weight: bolder;
 
 }
-.designed{
+
+.designed {
     padding-top: 10px;
     text-align: center;
     font-size: 13px;
     color: #012970;
-    
+
 }
-.designed a{
+
+.designed a {
     color: #4154f1;
     text-decoration: none;
 }
+
 /* <!---BIZLAND----> */
 
-.newsletter{
+.newsletter {
     padding: 0 0 30px 0;
     color: #444444;
     font-size: 14px;
-    background: #f1f6fe;
 
 }
-.newsletter-box{
+
+.newsletter-box {
     padding: 50px 0;
     background: #f1f6fe;
     text-align: center;
     font-size: 15px;
 }
-.newsletter-info{
+
+.newsletter-info {
     justify-content: center;
 }
-.newsletter-info{
+
+.newsletter-info {
     flex: 0 0 auto;
     width: 50%;
+    margin-left: 280px;
 }
-.newsletter-info h4{
+
+.newsletter-info h4 {
     font-size: 24px;
     margin: 0 0 20px 0;
     padding: 0;
     line-height: 1;
     font-weight: 600;
-    
+
 }
-.newsletter-info p{
+
+.newsletter-info p {
     margin-top: 0;
     margin-bottom: 1rem;
 
 }
-.newsletter-info form{
+
+.newsletter-info form {
     margin-top: 30px;
     background: #fff;
     padding: 6px 10px;
@@ -246,12 +259,14 @@ strong {
     box-shadow: 0px 2px 15px rgb(0 0 0 / 6%);
     text-align: right;
 }
-.newsletter-info form input[type=email]{
+
+.newsletter-info form input[type=email] {
     border: 0;
     padding: 4px 8px;
     width: calc(100% - 100px);
 }
-.newsletter-info form input[type=submit]{
+
+.newsletter-info form input[type=submit] {
     position: absolute;
     top: 0;
     right: 0;
@@ -265,4 +280,209 @@ strong {
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.footer-bizLand {
+    padding: 60px 0 30px 0;
+    background: #fff;
+}
+
+.footer-bizbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 81px;
+}
+
+.footer-biz1 {
+    flex: 0 0 auto;
+    width: 25%;
+
+}
+
+.footer-biz1 h3 {
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.footer-biz1 span {
+    color: #106eea;
+}
+
+.footer-biz1 p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+
+}
+
+.footer-biz1 strong {
+    font-weight: bolder;
+}
+
+.footer-biz2 {
+
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.footer-biz2 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-biz2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2.2;
+
+}
+
+
+.footer-biz2 .icofont {
+    font-family: 'IcoFont' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+
+}
+
+.footer-biz2 ul li a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #170c0c;
+}
+
+.footer-biz2 ul li a:hover {
+    color: #5c12e7;
+}
+
+.footer-biz3 {
+
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.footer-biz3 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-biz3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2.2;
+
+}
+
+.footer-biz3 .icofont {
+    font-family: 'IcoFont' !important;
+    font-style: normal;
+    font-weight: normal;
+
+
+}
+
+.footer-biz3 ul li a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #170c0c;
+}
+
+.footer-biz3 ul li a:hover {
+    color: #5c12e7;
+}
+
+.footer-bix4 {
+    flex: 0 0 auto;
+    width: 25%;
+
+}
+
+.footer-bix4 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.footer-bix4 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+
+}
+
+.link {
+    margin-top: 1rem !important;
+}
+
+.link a {
+    font-size: 18px;
+    display: inline-block;
+    background: #106eea;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 34px;
+    height: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.link a:hover {
+    background: #0b8ed4;
+}
+
+.Copyright-BizLandbox {
+    background: aliceblue;
+    padding: 50px;
+    
+}
+
+.Copyright-BizLandbox strong {
+    font-weight: bolder;
+
+}
+
+.cridits {
+    float: right;
+    text-align: center;
+    font-size: 13px;
+    color: #444444;
+
+}
+
+.cridits a {
+    color: #106eea;
+    text-decoration: none;
 }
